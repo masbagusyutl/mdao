@@ -49,10 +49,6 @@ def update_telegram_init_data(telegram_init_data):
 def claim_rewards(telegram_init_data):
     url = 'https://zavod-api.mdaowallet.com/user/claim'
     headers = {
-        ':authority': 'zavod-api.mdaowallet.com',
-        ':method': 'POST',
-        ':path': '/user/claim',
-        ':scheme': 'https',
         'Accept': 'application/json, text/plain, */*',
         'Accept-Encoding': 'gzip, deflate, br, zstd',
         'Accept-Language': 'en-GB,en;q=0.9,en-US;q=0.8',
